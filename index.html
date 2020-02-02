@@ -30,9 +30,26 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-    </div>
-
+      <h1>Current Date</h1>
+      <center><span id="display-date"></span></center>
+      <br><br><br><br>
+      <br><br>
+      <div class="row">
+      <span class= "time-block col-md-3" id="time-stamps">Enter Time</span>
+      <span class= "description col-md-7" id="text-form" placeholder="Enter description">Enter details here</span>
+      <span class= "saveBtn col-md-1" id="save-button"></span>
+      
+      </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        var a = moment().format('MMMM Do YYYY, h:mm:ss a');
+         document.getElementById("display-date").innerHTML = a;
+      
+
+      
+      });
+</script>
   </body>
 </html>
