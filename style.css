@@ -27,7 +27,9 @@ textarea{
 
 .time-block{
   text-align: center;
+  padding-top: 35px;
   border-radius: 15px;
+  background-color: peachpuff;
 }
 
 .row {
@@ -63,6 +65,8 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  text-align: center;
+  padding-top: 35px;
 }
 
 .saveBtn i:hover {
@@ -73,3 +77,5 @@ textarea{
 h1 {
   text-align: center;
 }
+
+
