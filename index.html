@@ -38,7 +38,7 @@
         <div class="row">
           <span class= "time-block col-md-3" id="time-stamps">09:00 AM</span>
           <textarea class="form-control description col-md-7" id="text-form" method="POST" rows="3"></textarea>
-          <span class= "saveBtn col-md-1" id="save-button"></span>
+          <button class= "saveBtn col-md-1" id="save-button"></button>
         </div>
       </div>
       <br>
@@ -46,7 +46,7 @@
         <div class="row">
           <span class= "time-block col-md-3" id="time-stamps">10:00 AM</span>
           <textarea class="form-control description col-md-7" id="text-form" method="POST" rows="3"></textarea>
-          <span class= "saveBtn col-md-1" id="save-button"></span>
+          <button class= "saveBtn col-md-1" id="save-button"></button>
         </div>
       </div>
       <br>
@@ -54,7 +54,7 @@
         <div class="row">
           <span class= "time-block col-md-3" id="time-stamps">11:00 AM</span>
           <textarea class="form-control description col-md-7" id="text-form" method="POST" rows="3"></textarea>
-          <span class= "saveBtn col-md-1" id="save-button"></span>
+          <button class= "saveBtn col-md-1" id="save-button"></button>
         </div>
       </div>
       <br>
@@ -62,7 +62,7 @@
         <div class="row">
           <span class= "time-block col-md-3" id="time-stamps">12:00 PM</span>
           <textarea class="form-control description col-md-7" id="text-form" method="POST" rows="3"></textarea>
-          <span class= "saveBtn col-md-1" id="save-button"></span>
+          <button class= "saveBtn col-md-1" id="save-button"></button>
         </div>
       </div>
       <br>
@@ -70,7 +70,7 @@
         <div class="row">
           <span class= "time-block col-md-3" id="time-stamps">01:00 PM</span>
           <textarea class="form-control description col-md-7" id="text-form" method="POST" rows="3"></textarea>
-          <span class= "saveBtn col-md-1" id="save-button"></span>
+          <button class= "saveBtn col-md-1" id="save-button"></button>
         </div>
       </div>
       <br>
@@ -78,7 +78,7 @@
         <div class="row">
           <span class= "time-block col-md-3" id="time-stamps">02:00 PM</span>
           <textarea class="form-control description col-md-7" id="text-form" method="POST" rows="3"></textarea>
-          <span class= "saveBtn col-md-1" id="save-button"></span>
+          <button class= "saveBtn col-md-1" id="save-button"></button>
         </div>
       </div>
       <br>
@@ -86,7 +86,7 @@
         <div class="row">
           <span class= "time-block col-md-3" id="time-stamps">03:00 PM</span>
           <textarea class="form-control description col-md-7" id="text-form" method="POST" rows="3"></textarea>
-          <span class= "saveBtn col-md-1" id="save-button"></span>
+          <button class= "saveBtn col-md-1" id="save-button"></button>
         </div>
       </div>
       <br>
@@ -94,7 +94,7 @@
         <div class="row">
           <span class= "time-block col-md-3" id="time-stamps">04:00 PM</span>
           <textarea class="form-control description col-md-7" id="text-form" method="POST" rows="3"></textarea>
-          <span class= "saveBtn col-md-1" id="save-button"></span>
+          <button class= "saveBtn col-md-1" id="save-button"></button>
         </div>
       </div>
       <br>
@@ -102,7 +102,7 @@
         <div class="row">
           <span class= "time-block col-md-3" id="time-stamps">05:00 PM</span>
           <textarea class="form-control description col-md-7" id="text-form" method="POST" rows="3"></textarea>
-          <span class= "saveBtn col-md-1" id="save-button"></span>
+          <button class= "saveBtn col-md-1" id="save-button"></button>
         </div>
       </div>
       <br>
@@ -118,12 +118,9 @@
       var a = moment().format('MMMM Do YYYY, h:mm:ss a');
         document.getElementById("display-date").innerHTML = a;
       
-      if (typeof(Storage) !== "undefined") {
-        localStorage.setItem("textform", "");
-        document.getElementById("text-form").innerHTML = localStorage.getItem("textform");
-      } else {
-        document.getElementById("text-form").innerHTML = "Nothing"
-      }
+      document.querySelector('description').addEventListener("button", function(){
+        
+      })
 
        
       
