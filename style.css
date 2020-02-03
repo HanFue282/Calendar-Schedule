@@ -4,7 +4,7 @@ body {
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -21,15 +21,17 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   padding-top: 35px;
   border-radius: 15px;
   background-color: peachpuff;
+  color: #000000;
+  font-weight: bolder;
 }
 
 .row {
@@ -84,7 +86,8 @@ h1 {
 footer {
   text-align: center;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  margin: 10px;
 }
 
 
