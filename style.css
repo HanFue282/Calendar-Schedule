@@ -65,8 +65,11 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
-  text-align: center;
-  padding-top: 35px;
+  background-image: url("save.png");
+  background-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
 }
 
 .saveBtn i:hover {
@@ -76,6 +79,12 @@ textarea{
 
 h1 {
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 
